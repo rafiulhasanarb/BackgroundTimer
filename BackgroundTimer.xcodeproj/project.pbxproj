@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1BCBE4D292E610D0043BECB /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BCBE4C292E610D0043BECB /* TimerViewController.swift */; };
+		B1BCBE4F292E646F0043BECB /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BCBE4E292E646F0043BECB /* DateViewController.swift */; };
+		B1BCBE51292E69990043BECB /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BCBE50292E69990043BECB /* CountDownViewController.swift */; };
 		B1E8015A2924A46900C3AA72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E801592924A46900C3AA72 /* AppDelegate.swift */; };
 		B1E8015C2924A46900C3AA72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E8015B2924A46900C3AA72 /* SceneDelegate.swift */; };
 		B1E8015E2924A46900C3AA72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E8015D2924A46900C3AA72 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1BCBE4C292E610D0043BECB /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		B1BCBE4E292E646F0043BECB /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		B1BCBE50292E69990043BECB /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
 		B1E801562924A46900C3AA72 /* BackgroundTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E801592924A46900C3AA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E8015B2924A46900C3AA72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				B1E801592924A46900C3AA72 /* AppDelegate.swift */,
 				B1E8015B2924A46900C3AA72 /* SceneDelegate.swift */,
 				B1E8015D2924A46900C3AA72 /* ViewController.swift */,
+				B1BCBE4C292E610D0043BECB /* TimerViewController.swift */,
+				B1BCBE50292E69990043BECB /* CountDownViewController.swift */,
+				B1BCBE4E292E646F0043BECB /* DateViewController.swift */,
 				B1E8015F2924A46900C3AA72 /* Main.storyboard */,
 				B1E801622924A46B00C3AA72 /* Assets.xcassets */,
 				B1E801642924A46B00C3AA72 /* LaunchScreen.storyboard */,
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1BCBE51292E69990043BECB /* CountDownViewController.swift in Sources */,
+				B1BCBE4F292E646F0043BECB /* DateViewController.swift in Sources */,
+				B1BCBE4D292E610D0043BECB /* TimerViewController.swift in Sources */,
 				B1E8015E2924A46900C3AA72 /* ViewController.swift in Sources */,
 				B1E8015A2924A46900C3AA72 /* AppDelegate.swift in Sources */,
 				B1E8015C2924A46900C3AA72 /* SceneDelegate.swift in Sources */,
